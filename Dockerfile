@@ -1,4 +1,4 @@
-FROM node:6.10
+FROM node:8.5
 RUN apt-get update && \
 apt-get install python-dev -y && \
 apt-get clean
